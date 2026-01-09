@@ -16,6 +16,11 @@
                 }
                 Console.WriteLine();
             }
+            int perimeter = 4 * size;
+            int area = size * size;
+
+            Console.WriteLine($"ruudu umbermuut: {perimeter}");
+            Console.WriteLine($"ruudu pindala: {area}");
 
         } 
     }
